@@ -1,0 +1,29 @@
+*{
+    background-color:blanchedalmond ;
+}
+.copyright{
+    color: blue;
+}
+.navigate{
+    border: 10px;
+    border-radius: 20px;
+    margin:10px;
+    padding: 10px;
+    background-color: rgb(220, 118, 118);
+}
+.header{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+    
+}
+.link{
+    margin:auto;
+    padding:10px;
+}
+h2{
+    font-size: 30px;
+}
+.caption{
+    font-weight: 600;
+}

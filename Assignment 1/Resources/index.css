@@ -1,0 +1,45 @@
+.heading{
+    margin: 5px;
+    border: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(143, 96, 96);
+    font-weight: 600;
+}
+.about-olubunmi{
+    background-color: rgb(115, 101, 128);
+    border:10px;
+    margin:5px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.biography-olubunmi{
+    background-color: rgb(128, 174, 128);
+    margin: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    border:10px;
+}
+.reason-olubunmi{
+    background-color: rgb(225, 179, 162);
+    margin: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    border:10px;
+}
+.goals-olubunmi{
+    background-color: rgb(54, 188, 206);
+    margin: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    border:10px;
+}
+.footer{
+    background-color: rgb(31, 189, 189);
+    margin:auto;
+    padding: 5px;
+    border: 10px;
+    color: black;
+    font-weight:800;
+    border-radius: 30px;
+}

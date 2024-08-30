@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Olubunmi Alabi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./Resources/form.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="section">
+            <h1>Sign Up </h1>
+            <p><i>Take the next steps to apply at Alt School Africa</i></p>
+            </div>
+            <form action="assignment.html" method="POST">
+                <fieldset class="form">
+                    <p>
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="enter first name" required>
+                    </p>
+                    <p>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="enter last name" required>
+                    <p>
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="date-of-birth">Date of Birth:</label>
+                        <input type="text" name="date" id="date-of-birth" placeholder="dd/mm/yyyy" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="enter email address" required>
+                    </p>
+                    <p>
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="text" name="phone-number" id="phone-number" placeholder="08xx-xxx-xxxx" required>
+                    </p>
+                    <p>
+                        <label for="country">Country:</label>
+                        <input type="text" name="country" id="country" placeholder="Select your country" required>
+                    </p>
+                    <p>
+                        <label for="city-of-residence">City of Residence:</label>
+                        <input type="text" name="city-of-residence" id="city-of-residence" placeholder="Enter your State of Residence" required>
+                    </p>
+                    <p>
+                        <label for="advert">How did you hear about Us:</label>
+                        <input type="text" list="socials" name="advert" id="advert">
+                        <datalist id="socials">
+                            <option value="Instagram"></option>
+                            <option value="X or Twitter"></option>
+                            <option value="Referral"></option>
+                            <option value="Billboard Advertisment"></option>
+                            <option value="Other"></option>    
+                        </datalist>                           
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="text" name="password" id="password" placeholder="Enter Password" required>
+                    </p>        
+                    <p>
+                        <label for="confirm-password"> Confirm Password:</label>
+                        <input type="text" name="confirm-password" id="confirm-password" placeholder="Enter Password again" required>
+                    </p>        
+                </fieldset>
+                <p>By clicking continue, I agree to the <span id="footer">Terms of Use</span>  and acknowledge that I have read the <span id="footer">Privacy Policy</span>.</p>
+                <button type="submit" class="button">Submit</button>
+        </form>
+        </section>
+    </main>
+    <footer class="copyright">
+        <p>Copyright &copy;Olubunmi Alabi</p>
+    </footer>
+</body>
+</html>

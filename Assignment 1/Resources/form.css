@@ -1,0 +1,32 @@
+.section{
+    background-color: hsl(240, 26%, 76%);
+    border-radius: 10px;
+    margin:auto;
+    padding: 2px;
+}
+.form{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 15px;
+    background-color: rgb(187, 210, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.button{
+    color:rgb(0, 255, 51);
+    background-color: rgba(0, 0, 0, 0.768);
+}
+#footer{
+    color: blue;
+}
+.copyright{
+    color: rgb(139, 0, 83);
+    text-align: left;
+    font-weight: 600;
+    font-size: 19px;
+}
